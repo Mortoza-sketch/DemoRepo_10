@@ -3,336 +3,148 @@
     "line": 1,
     "elements": [
       {
-        "line": 19,
-        "name": "Cogmento CRM Creating a contact Scenario",
+        "line": 3,
+        "name": "Cogmento CRM Creating a new deal scenario",
         "description": "",
-        "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;2",
+        "id": "data-table-creation;cogmento-crm-creating-a-new-deal-scenario",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13068004300,
+              "duration": 13346111800,
               "status": "passed"
             },
             "line": 5,
-            "name": "User is Already on Login Page",
+            "name": "User is Already On Login Page",
             "match": {
-              "location": "ContactsDDTStepDefinition.User_is_already_on_login_page()"
+              "location": "DataTableStepDefinition.User_is_already_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3012350300,
+              "duration": 3011019100,
               "status": "passed"
             },
             "line": 6,
-            "name": "Title of Login Page Is Cogmento CRM",
+            "name": "Title Of Login Page Is Cogmento CRM",
             "match": {
-              "location": "ContactsDDTStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
+              "location": "DataTableStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3400303700,
+              "duration": 3398058100,
               "status": "passed"
             },
             "line": 7,
-            "name": "User Enters \"abcdtesting3@gmail.com\" and \"Abcd1234\"",
+            "name": "User enters Username And PassworD",
             "match": {
-              "arguments": [
-                {
-                  "val": "abcdtesting3@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Abcd1234",
-                  "offset": 42
-                }
-              ],
-              "location": "ContactsDDTStepDefinition.user_enters_username_and_password(String,String)"
+              "location": "DataTableStepDefinition.user_enters_username_and_password(DataTable)"
             },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "abcdtesting3@gmail.com",
+                  "Abcd1234"
+                ],
+                "line": 8
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3061610800,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on Login Button",
-            "match": {
-              "location": "ContactsDDTStepDefinition.User_clicks_on_Login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10087200,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User Is on Homepage",
-            "match": {
-              "location": "ContactsDDTStepDefinition.User_is_on_Homepage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3238679900,
+              "duration": 3036607200,
               "status": "passed"
             },
             "line": 10,
-            "name": "User moves to new Contact Page",
+            "name": "User clicks On Login Button",
             "match": {
-              "location": "ContactsDDTStepDefinition.User_moves_to_new_contact_page()"
+              "location": "DataTableStepDefinition.User_clicks_on_Login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7617065700,
+              "duration": 9650300,
               "status": "passed"
             },
             "line": 11,
-            "name": "user enters contact details \"Max\" and \"Payne\" and \"manager\"",
+            "name": "User Is On Homepage",
             "match": {
-              "arguments": [
-                {
-                  "val": "Max",
-                  "offset": 29
-                },
-                {
-                  "val": "Payne",
-                  "offset": 39
-                },
-                {
-                  "val": "manager",
-                  "offset": 51
-                }
-              ],
-              "location": "ContactsDDTStepDefinition.User_enters_first_name_and_last_name_and_position(String,String,String)"
+              "location": "DataTableStepDefinition.User_is_on_Homepage()"
             },
-            "matchedColumns": [
-              2,
-              3,
-              4
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3132994300,
+              "duration": 3245517300,
               "status": "passed"
             },
             "line": 12,
-            "name": "User clicks on Save button",
+            "name": "User moves to Deal Page",
             "match": {
-              "location": "ContactsDDTStepDefinition.User_clicks_on_save_button()"
+              "location": "DataTableStepDefinition.User_moves_to_Deal_Page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3273873200,
+              "duration": 11815102500,
               "status": "passed"
             },
             "line": 13,
-            "name": "Verify new Contact created",
+            "name": "user enters deal details",
             "match": {
-              "location": "ContactsDDTStepDefinition.Verify_new_contact_created()"
+              "location": "DataTableStepDefinition.user_enters_deal_details(DataTable)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 718558100,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Close The Browser",
-            "match": {
-              "location": "ContactsDDTStepDefinition.Close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 20,
-        "name": "Cogmento CRM Creating a contact Scenario",
-        "description": "",
-        "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11946412700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is Already on Login Page",
-            "match": {
-              "location": "ContactsDDTStepDefinition.User_is_already_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3007768400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Title of Login Page Is Cogmento CRM",
-            "match": {
-              "location": "ContactsDDTStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3357822600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User Enters \"abcdtesting3@gmail.com\" and \"Abcd1234\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "abcdtesting3@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Abcd1234",
-                  "offset": 42
-                }
-              ],
-              "location": "ContactsDDTStepDefinition.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "Test Deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 14
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3061510800,
+              "duration": 8142663500,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User clicks on Login Button",
+            "line": 16,
+            "name": "User clicks on Save Button",
             "match": {
-              "location": "ContactsDDTStepDefinition.User_clicks_on_Login_button()"
+              "location": "DataTableStepDefinition.User_clicks_on_save_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7913000,
+              "duration": 721050200,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User Is on Homepage",
+            "line": 17,
+            "name": "Close The BrowseR",
             "match": {
-              "location": "ContactsDDTStepDefinition.User_is_on_Homepage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8227009900,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User moves to new Contact Page",
-            "match": {
-              "location": "ContactsDDTStepDefinition.User_moves_to_new_contact_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13109381100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters contact details \"Eddie\" and \"Murphy\" and \"Team Lead\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Eddie",
-                  "offset": 29
-                },
-                {
-                  "val": "Murphy",
-                  "offset": 41
-                },
-                {
-                  "val": "Team Lead",
-                  "offset": 54
-                }
-              ],
-              "location": "ContactsDDTStepDefinition.User_enters_first_name_and_last_name_and_position(String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8195812500,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks on Save button",
-            "match": {
-              "location": "ContactsDDTStepDefinition.User_clicks_on_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 231175000,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat ContactsDDTStepDefinition.ContactsDDTStepDefinition.Verify_new_contact_created(ContactsDDTStepDefinition.java:82)\r\n\tat ✽.Then Verify new Contact created(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contactsDDTP1.feature:13)\r\n",
-              "status": "failed"
-            },
-            "line": 13,
-            "name": "Verify new Contact created",
-            "match": {
-              "location": "ContactsDDTStepDefinition.Verify_new_contact_created()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "Close The Browser",
-            "match": {
-              "location": "ContactsDDTStepDefinition.Close_the_browser()"
+              "location": "DataTableStepDefinition.Close_the_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Cogmento CRM Creating Contacts Feature",
+    "name": "Data Table Creation",
     "description": "",
-    "id": "cogmento-crm-creating-contacts-feature",
+    "id": "data-table-creation",
     "keyword": "Feature",
-    "uri": "C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contactsDDTP1.feature"
+    "uri": "C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/DataTable.feature"
   }
 ]

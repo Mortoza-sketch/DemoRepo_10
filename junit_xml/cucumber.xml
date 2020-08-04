@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="91.678333">
-    <testcase classname="Cogmento CRM Creating Contacts Feature" name="Cogmento CRM Creating a contact Scenario" time="40.533527">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.72578">
+    <testcase classname="Data Table Creation" name="Cogmento CRM Creating a new deal scenario" time="46.72578">
         <system-out>
-            <![CDATA[Given User is Already on Login Page.........................................passed
-When Title of Login Page Is Cogmento CRM....................................passed
-Then User Enters "abcdtesting3@gmail.com" and "Abcd1234"....................passed
-Then User clicks on Login Button............................................passed
-Then User Is on Homepage....................................................passed
-Then User moves to new Contact Page.........................................passed
-Then user enters contact details "Max" and "Payne" and "manager"............passed
-Then User clicks on Save button.............................................passed
-Then Verify new Contact created.............................................passed
-Then Close The Browser......................................................passed
+            <![CDATA[Given User is Already On Login Page.........................................passed
+When Title Of Login Page Is Cogmento CRM....................................passed
+Then User enters Username And PassworD......................................passed
+Then User clicks On Login Button............................................passed
+Then User Is On Homepage....................................................passed
+Then User moves to Deal Page................................................passed
+Then user enters deal details...............................................passed
+Then User clicks on Save Button.............................................passed
+Then Close The BrowseR......................................................passed
 ]]>
         </system-out>
-    </testcase>
-    <testcase classname="Cogmento CRM Creating Contacts Feature" name="Cogmento CRM Creating a contact Scenario 2" time="51.144806">
-        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at ContactsDDTStepDefinition.ContactsDDTStepDefinition.Verify_new_contact_created(ContactsDDTStepDefinition.java:82)&#13;&#10;&#9;at ✽.Then Verify new Contact created(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contactsDDTP1.feature:13)&#13;&#10;">
-            <![CDATA[Given User is Already on Login Page.........................................passed
-When Title of Login Page Is Cogmento CRM....................................passed
-Then User Enters "abcdtesting3@gmail.com" and "Abcd1234"....................passed
-Then User clicks on Login Button............................................passed
-Then User Is on Homepage....................................................passed
-Then User moves to new Contact Page.........................................passed
-Then user enters contact details "Eddie" and "Murphy" and "Team Lead".......passed
-Then User clicks on Save button.............................................passed
-Then Verify new Contact created.............................................failed
-Then Close The Browser......................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at ContactsDDTStepDefinition.ContactsDDTStepDefinition.Verify_new_contact_created(ContactsDDTStepDefinition.java:82)
-	at ✽.Then Verify new Contact created(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contactsDDTP1.feature:13)
-]]>
-        </failure>
     </testcase>
 </testsuite>
