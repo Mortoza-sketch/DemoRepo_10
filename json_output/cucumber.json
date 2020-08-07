@@ -1,172 +1,192 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "Cogmento Free CRM Creating a new deal scenario",
+        "line": 9,
+        "name": "Login with incorrect Username and Password",
         "description": "",
-        "id": "deal-data-creation;cogmento-free-crm-creating-a-new-deal-scenario",
+        "id": "cogmento-free-crm-application-testing;login-with-incorrect-username-and-password",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15411395300,
-              "status": "passed"
+              "duration": 238483000,
+              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_an_invalid_Login_Test(TaggingStepDefinition.java:36)\r\n\tat ✽.Given This is an invalid Login Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:10)\r\n",
+              "status": "failed"
             },
-            "line": 5,
-            "name": "User is Already On Login PAGE",
+            "line": 10,
+            "name": "This is an invalid Login Test",
             "match": {
-              "location": "DealStepwithMapDefinition.User_is_already_on_login_page()"
+              "location": "TaggingStepDefinition.this_is_an_invalid_Login_Test()"
             },
             "keyword": "Given "
-          },
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Search a Deal",
+        "description": "",
+        "id": "cogmento-free-crm-application-testing;search-a-deal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 2016780100,
-              "status": "passed"
+              "duration": 5148200,
+              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Deal_Test(TaggingStepDefinition.java:111)\r\n\tat ✽.Given This is a Search Deal Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:30)\r\n",
+              "status": "failed"
             },
-            "line": 6,
-            "name": "Title Of Login Page Is COGMENTO CRM",
+            "line": 30,
+            "name": "This is a Search Deal Test",
             "match": {
-              "location": "DealStepwithMapDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
+              "location": "TaggingStepDefinition.this_is_a_Search_Deal_Test()"
             },
-            "keyword": "When "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "Validate a Report",
+        "description": "",
+        "id": "cogmento-free-crm-application-testing;validate-a-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 2498939000,
-              "status": "passed"
+              "duration": 241200,
+              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_validate_a_Report_Test(TaggingStepDefinition.java:179)\r\n\tat ✽.Given This is a validate a Report Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:62)\r\n",
+              "status": "failed"
             },
-            "line": 7,
-            "name": "User enters Username AND Password",
+            "line": 62,
+            "name": "This is a validate a Report Test",
             "match": {
-              "location": "DealStepwithMapDefinition.user_enters_username_and_password(DataTable)"
+              "location": "TaggingStepDefinition.this_is_a_validate_a_Report_Test()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "password"
-                ],
-                "line": 8
-              },
-              {
-                "cells": [
-                  "abcdtesting3@gmail.com",
-                  "Abcd1234"
-                ],
-                "line": 9
-              }
-            ],
-            "keyword": "Then "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 60,
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 65,
+        "name": "Search a Form",
+        "description": "",
+        "id": "cogmento-free-crm-application-testing;search-a-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 2038792900,
-              "status": "passed"
+              "duration": 205400,
+              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Form_Test(TaggingStepDefinition.java:170)\r\n\tat ✽.Given This is a Search Form Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:66)\r\n",
+              "status": "failed"
             },
-            "line": 11,
-            "name": "User clicks On LOGIN Button",
+            "line": 66,
+            "name": "This is a Search Form Test",
             "match": {
-              "location": "DealStepwithMapDefinition.User_clicks_on_Login_button()"
+              "location": "TaggingStepDefinition.this_is_a_Search_Form_Test()"
             },
-            "keyword": "Then "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 64,
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "Application Log out",
+        "description": "",
+        "id": "cogmento-free-crm-application-testing;application-log-out",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 70411200,
-              "status": "passed"
+              "duration": 227500,
+              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_an_Application_Log_out_Test(TaggingStepDefinition.java:188)\r\n\tat ✽.Given This is an Application Log out Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:70)\r\n",
+              "status": "failed"
             },
-            "line": 12,
-            "name": "User Is On HOMEPAGE",
+            "line": 70,
+            "name": "This is an Application Log out Test",
             "match": {
-              "location": "DealStepwithMapDefinition.User_is_on_Homepage()"
+              "location": "TaggingStepDefinition.this_is_an_Application_Log_out_Test()"
             },
-            "keyword": "Then "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 68,
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "Close the Browser",
+        "description": "",
+        "id": "cogmento-free-crm-application-testing;close-the-browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 3287136800,
-              "status": "passed"
+              "duration": 274600,
+              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_Close_the_Browser_Test(TaggingStepDefinition.java:197)\r\n\tat ✽.Given This is a Close the Browser Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:74)\r\n",
+              "status": "failed"
             },
-            "line": 13,
-            "name": "User moves to DEAL Page",
+            "line": 74,
+            "name": "This is a Close the Browser Test",
             "match": {
-              "location": "DealStepwithMapDefinition.User_moves_to_Deal_Page()"
+              "location": "TaggingStepDefinition.this_is_a_Close_the_Browser_Test()"
             },
-            "keyword": "Then "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 55481650800,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user enters DEAL details",
-            "match": {
-              "location": "DealStepwithMapDefinition.user_enters_deal_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Title",
-                  "Amount",
-                  "Probability",
-                  "Commission"
-                ],
-                "line": 15
-              },
-              {
-                "cells": [
-                  "Test Deal01",
-                  "1000",
-                  "50",
-                  "10"
-                ],
-                "line": 16
-              },
-              {
-                "cells": [
-                  "Test Deal02",
-                  "2000",
-                  "60",
-                  "20"
-                ],
-                "line": 17
-              },
-              {
-                "cells": [
-                  "Test Deal03",
-                  "3000",
-                  "70",
-                  "30"
-                ],
-                "line": 18
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 784465700,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Close The BROWSER",
-            "match": {
-              "location": "DealStepwithMapDefinition.Close_the_browser()"
-            },
-            "keyword": "Then "
+            "line": 72,
+            "name": "@EndToEnd"
           }
         ]
       }
     ],
-    "name": "Deal Data Creation",
+    "name": "Cogmento Free CRM Application Testing",
     "description": "",
-    "id": "deal-data-creation",
+    "id": "cogmento-free-crm-application-testing",
     "keyword": "Feature",
-    "uri": "C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/dealmap.feature"
+    "uri": "C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
   }
 ]

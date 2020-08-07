@@ -44,8 +44,8 @@ public class ContactsStepDefinition {
 	   public void User_clicks_on_Login_button() throws InterruptedException{	   
 	   WebElement loginBtn = driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']"));	   
 	   JavascriptExecutor js = (JavascriptExecutor)driver;
-      js.executeScript("arguments[0].click();", loginBtn);		   
-      Thread.sleep(3000);}
+       js.executeScript("arguments[0].click();", loginBtn);		   
+       Thread.sleep(3000);}
 	   
 	   @Then("^User is on Homepage$")
 	   public void User_is_on_Homepage() {
