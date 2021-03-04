@@ -11,7 +11,7 @@ plugin = {"pretty","html:test-outout5", "json:json_output/cucumber.json", "junit
 monochrome = true, // display the console output in a proper readable format 
 strict = true, // it will check any step is not defined in step definition file
 dryRun = false, // to check the mapping between feature file and step definition file
-tags = {"~@SmokeTest"}
+tags = {"@SmokeTest , @RegressionTest, @EndToEnd"}
 )
 
 public class TestRunnerTagging {

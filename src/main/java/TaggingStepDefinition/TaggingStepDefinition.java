@@ -56,6 +56,8 @@ public class TaggingStepDefinition {
     	Thread.sleep(3000);
     	driver.findElement(By.xpath("//input[@name='first_name']")).sendKeys("Faisal");
     	driver.findElement(By.xpath("//input[@name='last_name']")).sendKeys("Khan"); 
+    	Thread.sleep(2000);
+    	driver.findElement(By.xpath("//button[@class='ui linkedin button']")).click();
     	Thread.sleep(3000);}
 	
 
@@ -193,7 +195,7 @@ public class TaggingStepDefinition {
 	  }
 
 	  @Given("^This is a Close the Browser Test$")
-	  public void this_is_a_Close_the_Browser_Test(){
+	  public void this_is_a_Close_the_Browser_Test(){	  
 	  driver.quit();  
 	  }
 

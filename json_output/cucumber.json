@@ -1,192 +1,150 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 9,
-        "name": "Login with incorrect Username and Password",
+        "line": 3,
+        "name": "Cogmento CRM Creating a new deal scenario",
         "description": "",
-        "id": "cogmento-free-crm-application-testing;login-with-incorrect-username-and-password",
+        "id": "data-table-creation;cogmento-crm-creating-a-new-deal-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 238483000,
-              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_an_invalid_Login_Test(TaggingStepDefinition.java:36)\r\n\tat ✽.Given This is an invalid Login Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:10)\r\n",
-              "status": "failed"
+              "duration": 13539496600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is Already On Login Page",
+            "match": {
+              "location": "DataTableStepDefinition.User_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3008454000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title Of Login Page Is Cogmento CRM",
+            "match": {
+              "location": "DataTableStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3241792800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Username And PassworD",
+            "match": {
+              "location": "DataTableStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abcdtesting3@gmail.com",
+                  "Abcd1234"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3042355100,
+              "status": "passed"
             },
             "line": 10,
-            "name": "This is an invalid Login Test",
+            "name": "User clicks On Login Button",
             "match": {
-              "location": "TaggingStepDefinition.this_is_an_invalid_Login_Test()"
+              "location": "DataTableStepDefinition.User_clicks_on_Login_button()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 8,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 29,
-        "name": "Search a Deal",
-        "description": "",
-        "id": "cogmento-free-crm-application-testing;search-a-deal",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "Then "
+          },
           {
             "result": {
-              "duration": 5148200,
-              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Deal_Test(TaggingStepDefinition.java:111)\r\n\tat ✽.Given This is a Search Deal Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:30)\r\n",
-              "status": "failed"
+              "duration": 10035600,
+              "status": "passed"
             },
-            "line": 30,
-            "name": "This is a Search Deal Test",
+            "line": 11,
+            "name": "User Is On Homepage",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_Search_Deal_Test()"
+              "location": "DataTableStepDefinition.User_is_on_Homepage()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 28,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 61,
-        "name": "Validate a Report",
-        "description": "",
-        "id": "cogmento-free-crm-application-testing;validate-a-report",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "Then "
+          },
           {
             "result": {
-              "duration": 241200,
-              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_validate_a_Report_Test(TaggingStepDefinition.java:179)\r\n\tat ✽.Given This is a validate a Report Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:62)\r\n",
-              "status": "failed"
+              "duration": 8268077300,
+              "status": "passed"
             },
-            "line": 62,
-            "name": "This is a validate a Report Test",
+            "line": 12,
+            "name": "User moves to Deal Page",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_validate_a_Report_Test()"
+              "location": "DataTableStepDefinition.User_moves_to_Deal_Page()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 60,
-            "name": "@EndToEnd"
-          }
-        ]
-      },
-      {
-        "line": 65,
-        "name": "Search a Form",
-        "description": "",
-        "id": "cogmento-free-crm-application-testing;search-a-form",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "Then "
+          },
           {
             "result": {
-              "duration": 205400,
-              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Form_Test(TaggingStepDefinition.java:170)\r\n\tat ✽.Given This is a Search Form Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:66)\r\n",
-              "status": "failed"
+              "duration": 11896861800,
+              "status": "passed"
             },
-            "line": 66,
-            "name": "This is a Search Form Test",
+            "line": 13,
+            "name": "user enters deal details",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_Search_Form_Test()"
+              "location": "DataTableStepDefinition.user_enters_deal_details(DataTable)"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 64,
-            "name": "@EndToEnd"
-          }
-        ]
-      },
-      {
-        "line": 69,
-        "name": "Application Log out",
-        "description": "",
-        "id": "cogmento-free-crm-application-testing;application-log-out",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "rows": [
+              {
+                "cells": [
+                  "Test Deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          },
           {
             "result": {
-              "duration": 227500,
-              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_an_Application_Log_out_Test(TaggingStepDefinition.java:188)\r\n\tat ✽.Given This is an Application Log out Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:70)\r\n",
-              "status": "failed"
+              "duration": 3129015400,
+              "status": "passed"
             },
-            "line": 70,
-            "name": "This is an Application Log out Test",
+            "line": 16,
+            "name": "User clicks on Save Button",
             "match": {
-              "location": "TaggingStepDefinition.this_is_an_Application_Log_out_Test()"
+              "location": "DataTableStepDefinition.User_clicks_on_save_button()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 68,
-            "name": "@EndToEnd"
-          }
-        ]
-      },
-      {
-        "line": 73,
-        "name": "Close the Browser",
-        "description": "",
-        "id": "cogmento-free-crm-application-testing;close-the-browser",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "Then "
+          },
           {
             "result": {
-              "duration": 274600,
-              "error_message": "java.lang.NullPointerException\r\n\tat TaggingStepDefinition.TaggingStepDefinition.this_is_a_Close_the_Browser_Test(TaggingStepDefinition.java:197)\r\n\tat ✽.Given This is a Close the Browser Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:74)\r\n",
-              "status": "failed"
+              "duration": 672850500,
+              "status": "passed"
             },
-            "line": 74,
-            "name": "This is a Close the Browser Test",
+            "line": 17,
+            "name": "Close The BrowseR",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_Close_the_Browser_Test()"
+              "location": "DataTableStepDefinition.Close_the_browser()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 72,
-            "name": "@EndToEnd"
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Cogmento Free CRM Application Testing",
+    "name": "Data Table Creation",
     "description": "",
-    "id": "cogmento-free-crm-application-testing",
+    "id": "data-table-creation",
     "keyword": "Feature",
-    "uri": "C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@FunctionalTest"
-      }
-    ]
+    "uri": "C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/DataTable.feature"
   }
 ]

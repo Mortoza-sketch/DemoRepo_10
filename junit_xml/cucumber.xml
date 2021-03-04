@@ -1,69 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="6" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.24458">
-    <testcase classname="Cogmento Free CRM Application Testing" name="Login with incorrect Username and Password" time="0.238483">
-        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at TaggingStepDefinition.TaggingStepDefinition.this_is_an_invalid_Login_Test(TaggingStepDefinition.java:36)&#13;&#10;&#9;at ✽.Given This is an invalid Login Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:10)&#13;&#10;">
-            <![CDATA[Given This is an invalid Login Test.........................................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at TaggingStepDefinition.TaggingStepDefinition.this_is_an_invalid_Login_Test(TaggingStepDefinition.java:36)
-	at ✽.Given This is an invalid Login Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:10)
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.808939">
+    <testcase classname="Data Table Creation" name="Cogmento CRM Creating a new deal scenario" time="46.808939">
+        <system-out>
+            <![CDATA[Given User is Already On Login Page.........................................passed
+When Title Of Login Page Is Cogmento CRM....................................passed
+Then User enters Username And PassworD......................................passed
+Then User clicks On Login Button............................................passed
+Then User Is On Homepage....................................................passed
+Then User moves to Deal Page................................................passed
+Then user enters deal details...............................................passed
+Then User clicks on Save Button.............................................passed
+Then Close The BrowseR......................................................passed
 ]]>
-        </failure>
-    </testcase>
-    <testcase classname="Cogmento Free CRM Application Testing" name="Search a Deal" time="0.005148">
-        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Deal_Test(TaggingStepDefinition.java:111)&#13;&#10;&#9;at ✽.Given This is a Search Deal Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:30)&#13;&#10;">
-            <![CDATA[Given This is a Search Deal Test............................................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Deal_Test(TaggingStepDefinition.java:111)
-	at ✽.Given This is a Search Deal Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:30)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Cogmento Free CRM Application Testing" name="Validate a Report" time="0.000241">
-        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at TaggingStepDefinition.TaggingStepDefinition.this_is_a_validate_a_Report_Test(TaggingStepDefinition.java:179)&#13;&#10;&#9;at ✽.Given This is a validate a Report Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:62)&#13;&#10;">
-            <![CDATA[Given This is a validate a Report Test......................................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at TaggingStepDefinition.TaggingStepDefinition.this_is_a_validate_a_Report_Test(TaggingStepDefinition.java:179)
-	at ✽.Given This is a validate a Report Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:62)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Cogmento Free CRM Application Testing" name="Search a Form" time="0.000205">
-        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Form_Test(TaggingStepDefinition.java:170)&#13;&#10;&#9;at ✽.Given This is a Search Form Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:66)&#13;&#10;">
-            <![CDATA[Given This is a Search Form Test............................................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at TaggingStepDefinition.TaggingStepDefinition.this_is_a_Search_Form_Test(TaggingStepDefinition.java:170)
-	at ✽.Given This is a Search Form Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:66)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Cogmento Free CRM Application Testing" name="Application Log out" time="0.000228">
-        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at TaggingStepDefinition.TaggingStepDefinition.this_is_an_Application_Log_out_Test(TaggingStepDefinition.java:188)&#13;&#10;&#9;at ✽.Given This is an Application Log out Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:70)&#13;&#10;">
-            <![CDATA[Given This is an Application Log out Test...................................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at TaggingStepDefinition.TaggingStepDefinition.this_is_an_Application_Log_out_Test(TaggingStepDefinition.java:188)
-	at ✽.Given This is an Application Log out Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:70)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Cogmento Free CRM Application Testing" name="Close the Browser" time="0.000275">
-        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at TaggingStepDefinition.TaggingStepDefinition.this_is_a_Close_the_Browser_Test(TaggingStepDefinition.java:197)&#13;&#10;&#9;at ✽.Given This is a Close the Browser Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:74)&#13;&#10;">
-            <![CDATA[Given This is a Close the Browser Test......................................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at TaggingStepDefinition.TaggingStepDefinition.this_is_a_Close_the_Browser_Test(TaggingStepDefinition.java:197)
-	at ✽.Given This is a Close the Browser Test(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/tagging.feature:74)
-]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

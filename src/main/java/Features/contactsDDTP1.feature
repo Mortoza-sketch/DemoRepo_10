@@ -15,7 +15,7 @@ Then Close The Browser
 
  Examples:
  
-         |username              | password| firstname| lastname|position|
+         |username              | password|firstname |lastname|position|
          |abcdtesting3@gmail.com| Abcd1234|Max       |Payne   |manager  |
          |abcdtesting3@gmail.com| Abcd1234|Eddie     |Murphy  |Team Lead|
           

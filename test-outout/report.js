@@ -1,137 +1,431 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contacts.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contactsDDTP1.feature");
 formatter.feature({
   "line": 1,
-  "name": "Free CRM Create Contacts",
+  "name": "Cogmento CRM Creating Contacts Feature",
   "description": "",
-  "id": "free-crm-create-contacts",
+  "id": "cogmento-crm-creating-contacts-feature",
   "keyword": "Feature"
 });
-formatter.scenario({
+formatter.scenarioOutline({
   "line": 3,
-  "name": "Free CRM Create a new contact scenario",
+  "name": "Cogmento CRM Creating a contact Scenario",
   "description": "",
-  "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
-  "name": "User is already on Login Page",
+  "name": "User is Already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "Title of Login Page is Cogmento CRM",
+  "name": "Title of Login Page Is Cogmento CRM",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "User enters username and password",
+  "name": "User Enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 8,
-  "name": "User clicks on Login button",
+  "name": "User clicks on Login Button",
   "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "User is on Homepage",
+  "name": "User Is on Homepage",
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "User moves to new contact page",
+  "name": "User moves to new Contact Page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "User enters first name and last name",
+  "name": "user enters contact details \"\u003cfirstname\u003e\" and \"\u003clastname\u003e\" and \"\u003cposition\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 12,
-  "name": "User clicks on save button",
+  "name": "User clicks on Save button",
   "keyword": "Then "
 });
 formatter.step({
   "line": 13,
-  "name": "Verify new contact created",
+  "name": "Verify new Contact created",
   "keyword": "Then "
 });
 formatter.step({
   "line": 14,
-  "name": "Close the browser",
+  "name": "Close The Browser",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 16,
+  "name": "",
+  "description": "",
+  "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password",
+        "firstname",
+        "lastname",
+        "position"
+      ],
+      "line": 18,
+      "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;1"
+    },
+    {
+      "cells": [
+        "abcdtesting3@gmail.com",
+        "Abcd1234",
+        "Max",
+        "Payne",
+        "manager"
+      ],
+      "line": 19,
+      "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;2"
+    },
+    {
+      "cells": [
+        "abcdtesting3@gmail.com",
+        "Abcd1234",
+        "Eddie",
+        "Murphy",
+        "Team Lead"
+      ],
+      "line": 20,
+      "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 19,
+  "name": "Cogmento CRM Creating a contact Scenario",
+  "description": "",
+  "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "User is Already on Login Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "Title of Login Page Is Cogmento CRM",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "User Enters \"abcdtesting3@gmail.com\" and \"Abcd1234\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "User clicks on Login Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "User Is on Homepage",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "User moves to new Contact Page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "user enters contact details \"Max\" and \"Payne\" and \"manager\"",
+  "matchedColumns": [
+    2,
+    3,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "User clicks on Save button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "Verify new Contact created",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "Close The Browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_is_already_on_login_page()"
+  "location": "ContactsDDTStepDefinition.User_is_already_on_login_page()"
 });
 formatter.result({
-  "duration": 14517115400,
+  "duration": 13657456200,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
+  "location": "ContactsDDTStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
 });
 formatter.result({
-  "duration": 3011512500,
+  "duration": 3011771500,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_enters_username_and_password()"
+  "arguments": [
+    {
+      "val": "abcdtesting3@gmail.com",
+      "offset": 13
+    },
+    {
+      "val": "Abcd1234",
+      "offset": 42
+    }
+  ],
+  "location": "ContactsDDTStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 3513620000,
+  "duration": 3213710800,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_clicks_on_Login_button()"
+  "location": "ContactsDDTStepDefinition.User_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 3054256900,
+  "duration": 3052089400,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_is_on_Homepage()"
+  "location": "ContactsDDTStepDefinition.User_is_on_Homepage()"
 });
 formatter.result({
-  "duration": 10929000,
+  "duration": 10851800,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_moves_to_new_contact_page()"
+  "location": "ContactsDDTStepDefinition.User_moves_to_new_contact_page()"
 });
 formatter.result({
-  "duration": 3295757300,
+  "duration": 8294430600,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_enters_first_name_and_last_name()"
+  "arguments": [
+    {
+      "val": "Max",
+      "offset": 29
+    },
+    {
+      "val": "Payne",
+      "offset": 39
+    },
+    {
+      "val": "manager",
+      "offset": 51
+    }
+  ],
+  "location": "ContactsDDTStepDefinition.User_enters_first_name_and_last_name_and_position(String,String,String)"
 });
 formatter.result({
-  "duration": 9567877900,
+  "duration": 7532981700,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.User_clicks_on_save_button()"
+  "location": "ContactsDDTStepDefinition.User_clicks_on_save_button()"
 });
 formatter.result({
-  "duration": 8206024600,
+  "duration": 3203306300,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.Verify_new_contact_created()"
+  "location": "ContactsDDTStepDefinition.Verify_new_contact_created()"
 });
 formatter.result({
-  "duration": 3309383200,
+  "duration": 3301361800,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactsStepDefinition.Close_the_browser()"
+  "location": "ContactsDDTStepDefinition.Close_the_browser()"
 });
 formatter.result({
-  "duration": 774470000,
+  "duration": 660409200,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Cogmento CRM Creating a contact Scenario",
+  "description": "",
+  "id": "cogmento-crm-creating-contacts-feature;cogmento-crm-creating-a-contact-scenario;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "User is Already on Login Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "Title of Login Page Is Cogmento CRM",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "User Enters \"abcdtesting3@gmail.com\" and \"Abcd1234\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "User clicks on Login Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "User Is on Homepage",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "User moves to new Contact Page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "user enters contact details \"Eddie\" and \"Murphy\" and \"Team Lead\"",
+  "matchedColumns": [
+    2,
+    3,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "User clicks on Save button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "Verify new Contact created",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "Close The Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.User_is_already_on_login_page()"
+});
+formatter.result({
+  "duration": 12050711100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
+});
+formatter.result({
+  "duration": 3007853600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "abcdtesting3@gmail.com",
+      "offset": 13
+    },
+    {
+      "val": "Abcd1234",
+      "offset": 42
+    }
+  ],
+  "location": "ContactsDDTStepDefinition.user_enters_username_and_password(String,String)"
+});
+formatter.result({
+  "duration": 3225334200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.User_clicks_on_Login_button()"
+});
+formatter.result({
+  "duration": 3052068100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.User_is_on_Homepage()"
+});
+formatter.result({
+  "duration": 9466100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.User_moves_to_new_contact_page()"
+});
+formatter.result({
+  "duration": 7680105700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Eddie",
+      "offset": 29
+    },
+    {
+      "val": "Murphy",
+      "offset": 41
+    },
+    {
+      "val": "Team Lead",
+      "offset": 54
+    }
+  ],
+  "location": "ContactsDDTStepDefinition.User_enters_first_name_and_last_name_and_position(String,String,String)"
+});
+formatter.result({
+  "duration": 7617193700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.User_clicks_on_save_button()"
+});
+formatter.result({
+  "duration": 3172372000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.Verify_new_contact_created()"
+});
+formatter.result({
+  "duration": 244445800,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat ContactsDDTStepDefinition.ContactsDDTStepDefinition.Verify_new_contact_created(ContactsDDTStepDefinition.java:81)\r\n\tat ✽.Then Verify new Contact created(C:/Users/tamji/eclipse-workspace/CucumberDemo_P1/src/main/java/Features/contactsDDTP1.feature:13)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "ContactsDDTStepDefinition.Close_the_browser()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });

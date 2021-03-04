@@ -17,7 +17,7 @@ public class ContactsDDTStepDefinition {
 	   @Given("^User is Already on Login Page$")
 	   public void User_is_already_on_login_page() throws InterruptedException{
 	
-	   System.setProperty("webdriver.chrome.driver", "C:/Users/tamji/OneDrive/Desktop/Selenium/chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "C:/Users/tamji/OneDrive/Desktop/Selenium/chromedriver_win32/chromedriver.exe");
 	   driver = new ChromeDriver(); 
 	    
 	   driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

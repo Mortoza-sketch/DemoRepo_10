@@ -10,7 +10,7 @@ Feature: Cogmento Login Feature
 #Then user clicks on Login button
 #Then user is on Homepage
 
-Scenario Outline: Cogmento Login Test Scenario
+Scenario Outline: Cogmento Login Test Scenario 
 
 Given user is already on Login Page
 When title of Login Page is Cogmento CRM
@@ -24,4 +24,4 @@ Examples:
      
       | username              | password |     
       |abcdtesting3@gmail.com |Abcd1234  |
-      |abcdtesting4@gmail.com |abcD1234  |
+      |abcdtesting4@gmail.com |abcD4321  |

@@ -83,63 +83,63 @@ formatter.match({
   "location": "DataTableStepDefinition.User_is_already_on_login_page()"
 });
 formatter.result({
-  "duration": 13346111800,
+  "duration": 13539496600,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
 });
 formatter.result({
-  "duration": 3011019100,
+  "duration": 3008454000,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.user_enters_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 3398058100,
+  "duration": 3241792800,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.User_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 3036607200,
+  "duration": 3042355100,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.User_is_on_Homepage()"
 });
 formatter.result({
-  "duration": 9650300,
+  "duration": 10035600,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.User_moves_to_Deal_Page()"
 });
 formatter.result({
-  "duration": 3245517300,
+  "duration": 8268077300,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.user_enters_deal_details(DataTable)"
 });
 formatter.result({
-  "duration": 11815102500,
+  "duration": 11896861800,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.User_clicks_on_save_button()"
 });
 formatter.result({
-  "duration": 8142663500,
+  "duration": 3129015400,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableStepDefinition.Close_the_browser()"
 });
 formatter.result({
-  "duration": 721050200,
+  "duration": 672850500,
   "status": "passed"
 });
 });
