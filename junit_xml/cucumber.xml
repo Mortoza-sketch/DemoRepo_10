@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.808939">
-    <testcase classname="Data Table Creation" name="Cogmento CRM Creating a new deal scenario" time="46.808939">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="77.177792">
+    <testcase classname="Deal Data Creation" name="Cogmento Free CRM Creating a new deal scenario" time="77.177792">
         <system-out>
-            <![CDATA[Given User is Already On Login Page.........................................passed
-When Title Of Login Page Is Cogmento CRM....................................passed
-Then User enters Username And PassworD......................................passed
-Then User clicks On Login Button............................................passed
-Then User Is On Homepage....................................................passed
-Then User moves to Deal Page................................................passed
-Then user enters deal details...............................................passed
-Then User clicks on Save Button.............................................passed
-Then Close The BrowseR......................................................passed
+            <![CDATA[Given User is Already On Login PAGE.........................................passed
+When Title Of Login Page Is COGMENTO CRM....................................passed
+Then User enters Username AND Password......................................passed
+Then User clicks On LOGIN Button............................................passed
+Then User Is On HOMEPAGE....................................................passed
+Then User moves to DEAL Page................................................passed
+Then user enters DEAL details...............................................passed
+Then Close The BROWSER......................................................passed
 ]]>
         </system-out>
     </testcase>

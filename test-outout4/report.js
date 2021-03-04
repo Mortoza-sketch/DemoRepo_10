@@ -112,56 +112,56 @@ formatter.match({
   "location": "DealStepwithMapDefinition.User_is_already_on_login_page()"
 });
 formatter.result({
-  "duration": 11899332700,
+  "duration": 12662632200,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.Title_of_Login_Page_is_Cogmento_CRM()"
 });
 formatter.result({
-  "duration": 2010056800,
+  "duration": 2022185000,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.user_enters_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 2265544700,
+  "duration": 2282715700,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.User_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 2054524500,
+  "duration": 2053333100,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.User_is_on_Homepage()"
 });
 formatter.result({
-  "duration": 7366400,
+  "duration": 13397200,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.User_moves_to_Deal_Page()"
 });
 formatter.result({
-  "duration": 8262791700,
+  "duration": 3235778900,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.user_enters_deal_details(DataTable)"
 });
 formatter.result({
-  "duration": 69451422300,
+  "duration": 54174020500,
   "status": "passed"
 });
 formatter.match({
   "location": "DealStepwithMapDefinition.Close_the_browser()"
 });
 formatter.result({
-  "duration": 700078100,
+  "duration": 733729800,
   "status": "passed"
 });
 });
